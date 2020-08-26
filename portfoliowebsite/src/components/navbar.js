@@ -11,7 +11,7 @@ class Navbar extends Component {
             <li><Link item="Education" to="/education">Education</Link></li>
             <li><Link item="Skills" to="/skills">Skills</Link></li>
             <li><Link item="Projects" to="/projects">Projects</Link></li>
-            <li><Link item="Contact" to="/contact">Contact</Link></li>
+            {/* <li><Link item="Contact" to="/contact">Contact</Link></li> */}
             </ul>
             </nav>
             )
