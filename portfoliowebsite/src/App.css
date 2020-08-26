@@ -4,7 +4,7 @@
   --condiv-flex:6;
   --fontsize-p:1.2rem;
   --fontsize-nav:1.6rem;
-  --typing-font:3rem;
+  --typing-font:2rem;
 }
 *
 {
@@ -24,7 +24,6 @@ nav
 {
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
-  background: rgb(238,103,143);
   background: linear-gradient(180deg, rgb(25, 25, 221) 50%, rgb(62, 71, 62) 80%);
 }
 .condiv
@@ -80,6 +79,7 @@ a
   color: black;
   display: flex;
 }
+
 
 .subtopic
 {
