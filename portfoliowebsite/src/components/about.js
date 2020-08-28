@@ -9,8 +9,8 @@ class About extends Component {
             <h2>Carlton Hunt</h2>
             <h3>Full Stack Software Developer</h3>
             <br></br>
-            <p>Enthusiastic and innovative professional with a passion for software development, sharp technical acumen, and
-                relevant educational background, poised to leverage keen programming expertise in an entry-level role. 
+            <p>I love to build software/websites that will speed up production and take a company to the next level. 
+                My interests include technology, working out, sports, and finance.
             </p>
             </div>
             )

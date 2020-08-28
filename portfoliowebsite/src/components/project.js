@@ -21,18 +21,18 @@ class Project extends Component {
                 stack="Java Spring"
             />
             <Projectcard 
-                title="Internship Data Management System" 
-                semester="Summer 2020" 
-                internship="Discover Internship" 
-                description="This application is used to manage the data of interns using CRUD methods. The admin is able to track data and look at different metrics." 
-                stack="React,Java Spring, MySQL, PCF"
-            />
-            <Projectcard 
                 title="Covid-19 Tracker" 
                 semester="Spring 2020" 
                 internship="Side Project" 
                 description="Displays the statistics from covid-19 globally and by country." 
                 stack="React, API from another website for real data"
+            />
+            <Projectcard 
+                title="Internship Data Management System" 
+                semester="Summer 2020" 
+                internship="Discover Internship" 
+                description="This application is used to manage the data of interns using CRUD methods. The admin is able to track data and look at different metrics." 
+                stack="React,Java Spring, MySQL, PCF"
             />
             </div>
             )
