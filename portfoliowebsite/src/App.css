@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
 :root{
-  --sidebar-flex:1.5;
+  --sidebar-flex:.25;
   --condiv-flex:6;
   --fontsize-p:1.2rem;
   --fontsize-nav:1.6rem;
-  --typing-font:2rem;
+  --typing-font:3rem;
 }
 *
 {
@@ -24,12 +24,14 @@ nav
 {
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
-  background: linear-gradient(180deg, rgb(25, 25, 221) 50%, rgb(62, 71, 62) 80%);
+  background: #0005;
 }
 .condiv
 {
   padding: 100px ;
-  background-color:whitesmoke;
+  background-image: url('../src/images/pexels-negative-space-169573.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   flex:var(--condiv-flex);
 }
 
@@ -52,6 +54,9 @@ nav
 .typingeffect
 {
   font-size: var(--typing-font);
+  color: #ffffff;
+  margin-bottom: 10%;
+  font-weight: bolder;
 }
 
 nav ul{
@@ -76,7 +81,6 @@ a
 .social a
 {
   text-decoration: none;
-  color: black;
   display: flex;
 }
 
@@ -90,6 +94,7 @@ p{
 }
 h1,h2,h3,h4,p{
   margin: 10px;
+  color: #ffffff;
 }
 .social
 {
@@ -108,11 +113,11 @@ h1,h2,h3,h4,p{
   border:0px solid #9a9b9c;
   display: flex;
   margin:30px 0px 30px 0px;
+  background-color: #0005;
 }
 .widecard:hover
 {
   color: #1b1d20;
-  background-color: #ffffff;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .active
@@ -139,7 +144,7 @@ h1,h2,h3,h4,p{
   .sidebar
   {
     padding: 30px;
-    background: linear-gradient(180deg, rgb(25, 25, 221) 50%, rgb(62, 71, 62) 80%);
+    background: #0005;
 
   }
   .condiv

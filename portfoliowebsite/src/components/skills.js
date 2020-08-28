@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LinearProgress from '@material-ui/core/LinearProgress';
+import { MDBProgress } from 'mdbreact';
 class Skills extends Component {
     constructor(props)
     {
@@ -14,26 +14,27 @@ class Skills extends Component {
     render() {
         return (
             <div className="condiv skills">
-            <h1 className="subtopic">My Skills</h1>
+            <h1 className="font-weight-bold white-text">My Skills</h1>
+            <p className="font-weight-bolder white-text">These are the skills that I learned through my internship experience.</p>
             <br/>
-            <h3>Languages</h3>
+            <h3 className="font-weight-bold white-text">Languages</h3>
             <ul>
             {this.state.Language.map((data)=>{
-                return <li>{data.name}<LinearProgress variant="determinate" value={data.number} color="primary"/></li>
+                return <li className="font-weight-bolder white-text">{data.name}<MDBProgress material value={data.number} color="info" className="my-2"/></li>
             })}
             </ul>
             <br/>
-            <h3>Frameworks</h3>
+            <h3 className="font-weight-bold white-text">Frameworks</h3>
             <ul>
             {this.state.Framework.map((data)=>{
-                return <li>{data.name}<LinearProgress variant="determinate" value={data.number} color="secondary"/></li>
+                return <li className="font-weight-bolder white-text">{data.name}<MDBProgress material value={data.number} color="warning" className="my-2"/></li>
             })}
             </ul>
             <br/>
-            <h3>Software & Tools</h3>
+            <h3 className="font-weight-bold white-text">Software & Tools</h3>
             <ul>
             {this.state.Software.map((data)=>{
-                return <li>{data.name}<LinearProgress variant="determinate" value={data.number} color="primary"/></li>
+                return <li className="font-weight-bolder white-text">{data.name}<MDBProgress value={data.number} color="info" className="my-2"/></li>
             })}
             </ul>
             </div>
