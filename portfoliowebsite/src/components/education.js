@@ -6,7 +6,7 @@ class Education extends Component {
         return (
             <div className="condiv">
             <h1 className="subtopic">My Education</h1>
-            <Widecard title="Bachelor of Science" major="Computer Science" where="Northern Illinois University" gpa="3.01 gpa" from="2017" to="2020"/>
+            <Widecard title="Bachelor of Science" major="Computer Science" where="Northern Illinois University" from="2017" to="2020"/>
             </div>
             )
         }
